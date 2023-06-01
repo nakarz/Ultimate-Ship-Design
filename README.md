@@ -23,7 +23,7 @@ Presentation: https://www.canva.com/design/DAFkMkanzBM/YlLtUfs5jgrHOjAf1lAgkw/ed
 ### Features
 
 1. Typography 
-![Typography](https://drive.google.com/file/d/1BYOCSknOLy3yNU0h3JTF730SVFPJZZ3c/view?usp=sharing "Typography")
+
 2. Color Palette
 
 3. Asset
