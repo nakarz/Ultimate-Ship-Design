@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Open+Sans:wght@500&family=Poppins:wght@300&display=swap');
+
+:root {
+    --color-white: #FFFFFF;
+    --color-gray: #EFECEC;
+    --color-green: #62929A;
+    --color-dark-gray: #5C5757;
+    --color-semi-black: #363434;
+    --color-footer: #D9D9D9;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-gray);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    padding: 5vh;
+    color: var(--color-semi-black);
+}
+
+.cardWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 20px;
+    text-align: center;
+    margin: 0px 30vh 0px 30vh;
+}
+
+.card1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: var(--color-white);
+    border: 2px solid var(--color-footer);
+    border-radius: 30px;
+    padding: 1.5vh 5vh 5vh 5vh;
+    cursor: pointer;
+}
+  
+.card1:hover {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card2 {
+    grid-column: 2 / 2;
+    grid-row: 1 / 2;
+    background-color: var(--color-white);
+    border: 2px solid var(--color-footer);
+    border-radius: 30px;
+    padding: 1.5vh 5vh 5vh 5vh;
+    cursor: pointer;
+}
+
+.card2:hover {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}  
+
+.details {
+    font-size: 15px;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: var(--color-semi-black);
+    font-family: 'Poppins';
+}
+
+.footer {
+    background-color: var(--color-footer);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.link{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 13px;
+}
+
+.smartButton {
+    padding: 8px;
+    box-sizing: border-box;
+    background: #2B18D9;
+    border: 2px solid #2B18D9;
+    border-radius: 10px;
+  
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--color-white);
+  
+    width: auto;
+    height: auto;
+    position: relative;
+}
+  
+.smartButton:hover {
+    background: #5F3AFD;
+    border: 2px solid #5F3AFD;
+    font-weight: 600;
+}
+  
+.smartButton:focus {
+    background: #0000A1;
+    border: 2px solid #0000A1;
+    font-weight: 600;
+}
+
+.quayButton {
+    padding: 8px;
+    box-sizing: border-box;
+    background: #E48C97;
+    border: 2px solid #E48C97;
+    border-radius: 10px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--color-white);
+
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.quayButton:hover {
+    background: #C8737E;
+    border: 2px solid #C8737E;
+    font-weight: 600;
+}
+
+.quayButton:focus {
+    background: #9A4A57;
+    border: 2px solid #C8737E;
+    font-weight: 600;
+}
