@@ -1,4 +1,6 @@
 # Ultimate-Ship-Design
+Presentation: https://www.canva.com/design/DAFkMkanzBM/YlLtUfs5jgrHOjAf1lAgkw/edit
+
 ## Installation
 1. Install dependencies:
 
@@ -20,9 +22,12 @@
 * The `pages` folder contains components representing different pages or views of the application.
 ### Features
 
-1. Typography
+1. Typography 
+![alt text for screen readers](https://postimg.cc/H87mx1sw) "Typography")
 2. Color Palette
+
 3. Asset
+
 4. Component
 
 ### Contributors
