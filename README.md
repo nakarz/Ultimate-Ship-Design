@@ -21,9 +21,7 @@
 ### Features
 
 1. Typography
-![Alt text]([https://ibb.co/1ZY1hkn](https://i.ibb.co/wyZV3fL/image-2023-06-01-203905986.png) "Typography")
 2. Color Palette
-
 3. Asset
 4. Component
 
